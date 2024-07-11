@@ -1,6 +1,7 @@
-package my.j.hw01;
+package my.j.ex.hw01;
+
 import com.google.common.base.MoreObjects;
-//import com.google.common.base.MoreObjects.ToStringHelper;
+
 public class HelloOtus {
     private String lastName;
     private String middleName;
@@ -19,13 +20,13 @@ public class HelloOtus {
     }
 
 
-@Override
+    @Override
     public String toString() {
-    return MoreObjects.toStringHelper(this)
-            .omitNullValues()
-            .add("firstName", firstName)
-            .add("middleName", middleName)
-            .add("lastName", lastName)
-            .toString();
+        return MoreObjects.toStringHelper(this)
+                .omitNullValues()
+                .add("firstName", firstName)
+                .add("middleName", middleName)
+                .add("lastName", lastName)
+                .toString();
     }
 }

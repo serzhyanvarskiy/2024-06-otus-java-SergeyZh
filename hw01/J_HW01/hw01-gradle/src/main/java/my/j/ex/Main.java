@@ -1,6 +1,6 @@
 package my.j.ex;
 
-import my.j.hw01.HelloOtus;
+import my.j.ex.hw01.HelloOtus;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
