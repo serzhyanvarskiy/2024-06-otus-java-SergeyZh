@@ -12,11 +12,11 @@ public class Main {
         HelloOtus HiOtto = new HelloOtus("Zharov", "Eduardovich", "Sergey");
         System.out.println("Hello, Otus! I'm your student. Info:" + HiOtto);
 
-        System.out.println("Hello and welcome!");
+        System.out.println("Hello and welcome to Java! Start...");
 
         // TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon
         // src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
         // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        for (int i = 1; i <= 5; i++) System.out.println("i = " + i);
+        for (int i = 1; i <= 3; i++) System.out.println("i = " + i);
     }
 }
